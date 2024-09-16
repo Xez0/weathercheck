@@ -49,7 +49,7 @@ search.addEventListener("click", () => {
           break;
 
         case "Clouds":
-          image.src = "/cloud.png";
+          image.src = "https://raw.githubusercontent.com/Xez0/weathercheck/main/cloud.png";
           break;
 
         case "Haze":
