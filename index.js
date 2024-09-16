@@ -37,23 +37,23 @@ search.addEventListener("click", () => {
 
       switch (json.weather[0].main) {
         case "Clear":
-          image.src = "images/https://ibb.co.com/D7qC6jp .png";
+          image.src = "clear.png";
           break;
 
         case "Rain":
-          image.src = "https://ibb.co.com/qBM46GP/rain.png";
+          image.src = "rain.png";
           break;
 
         case "Snow":
-          image.src = "images/https://ibb.co.com/D7n11qx.png";
+          image.src = "snow.png";
           break;
 
         case "Clouds":
-          image.src = "https://ibb.co.com/vxSTC1d /cloud.png";
+          image.src = "cloud.png";
           break;
 
         case "Haze":
-          image.src = "images/https://ibb.co.com/30RFd0s.png";
+          image.src = "mist.png";
           break;
 
         default:
